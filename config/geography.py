@@ -1,0 +1,48 @@
+AMBIGUOUS_CITIES = {
+    'москва': 'Moscow',
+    'минск': 'Minsk',
+    'санкт-петербург': 'Saint Petersburg',
+    'спб': 'Saint Petersburg',
+    'нью-йорк': 'New York',
+    'лондон': 'London',
+    # Добавленные города:
+    'истра': 'Istra, RU',       # Принудительно Россия (Московская область)
+    'мансурово': 'Mansurovo, Moscow Oblast, RU'  # Уточняем регион для подмосковного Мансурово
+}
+
+COUNTRY_NAMES = {
+    'RU': {'rus': 'Россия', 'eng': 'Russia'}, 'US': {'rus': 'США', 'eng': 'United States'},
+    'GB': {'rus': 'Великобритания', 'eng': 'United Kingdom'}, 'DE': {'rus': 'Германия', 'eng': 'Germany'},
+    'FR': {'rus': 'Франция', 'eng': 'France'}, 'IT': {'rus': 'Италия', 'eng': 'Italy'},
+    'ES': {'rus': 'Испания', 'eng': 'Spain'}, 'CN': {'rus': 'Китай', 'eng': 'China'},
+    'JP': {'rus': 'Япония', 'eng': 'Japan'}, 'BR': {'rus': 'Бразилия', 'eng': 'Brazil'},
+    'IN': {'rus': 'Индия', 'eng': 'India'}, 'CA': {'rus': 'Канада', 'eng': 'Canada'},
+    'AU': {'rus': 'Австралия', 'eng': 'Australia'}, 'UA': {'rus': 'Украина', 'eng': 'Ukraine'},
+    'BY': {'rus': 'Беларусь', 'eng': 'Belarus'}, 'KZ': {'rus': 'Казахстан', 'eng': 'Kazakhstan'},
+    'TR': {'rus': 'Турция', 'eng': 'Turkey'}, 'EG': {'rus': 'Египет', 'eng': 'Egypt'},
+    'MX': {'rus': 'Мексика', 'eng': 'Mexico'}, 'AR': {'rus': 'Аргентина', 'eng': 'Argentina'},
+    'PL': {'rus': 'Польша', 'eng': 'Poland'}, 'NL': {'rus': 'Нидерланды', 'eng': 'Netherlands'},
+    'BE': {'rus': 'Бельгия', 'eng': 'Belgium'}, 'CH': {'rus': 'Швейцария', 'eng': 'Switzerland'},
+    'AT': {'rus': 'Австрия', 'eng': 'Austria'}, 'SE': {'rus': 'Швеция', 'eng': 'Sweden'},
+    'NO': {'rus': 'Норвегия', 'eng': 'Norway'}, 'FI': {'rus': 'Финляндия', 'eng': 'Finland'},
+    'DK': {'rus': 'Дания', 'eng': 'Denmark'}, 'CZ': {'rus': 'Чехия', 'eng': 'Czech Republic'},
+    'RO': {'rus': 'Румыния', 'eng': 'Romania'}, 'GR': {'rus': 'Греция', 'eng': 'Greece'},
+    'PT': {'rus': 'Португалия', 'eng': 'Portugal'}, 'HU': {'rus': 'Венгрия', 'eng': 'Hungary'},
+    'BG': {'rus': 'Болгария', 'eng': 'Bulgaria'}, 'RS': {'rus': 'Сербия', 'eng': 'Serbia'},
+    'HR': {'rus': 'Хорватия', 'eng': 'Croatia'}, 'SK': {'rus': 'Словакия', 'eng': 'Slovakia'},
+    'SI': {'rus': 'Словения', 'eng': 'Slovenia'}, 'LT': {'rus': 'Литва', 'eng': 'Lithuania'},
+    'LV': {'rus': 'Латвия', 'eng': 'Latvia'}, 'EE': {'rus': 'Эстония', 'eng': 'Estonia'},
+    'GE': {'rus': 'Грузия', 'eng': 'Georgia'}, 'AM': {'rus': 'Армения', 'eng': 'Armenia'},
+    'AZ': {'rus': 'Азербайджан', 'eng': 'Azerbaijan'}, 'UZ': {'rus': 'Узбекистан', 'eng': 'Uzbekistan'},
+    'KG': {'rus': 'Кыргызстан', 'eng': 'Kyrgyzstan'}, 'TJ': {'rus': 'Таджикистан', 'eng': 'Tajikistan'},
+    'TM': {'rus': 'Туркменистан', 'eng': 'Turkmenistan'}, 'MN': {'rus': 'Монголия', 'eng': 'Mongolia'},
+    'KR': {'rus': 'Южная Корея', 'eng': 'South Korea'}, 'TH': {'rus': 'Таиланд', 'eng': 'Thailand'},
+    'VN': {'rus': 'Вьетнам', 'eng': 'Vietnam'}, 'ID': {'rus': 'Индонезия', 'eng': 'Indonesia'},
+    'MY': {'rus': 'Малайзия', 'eng': 'Malaysia'}, 'SG': {'rus': 'Сингапур', 'eng': 'Singapore'},
+    'PH': {'rus': 'Филиппины', 'eng': 'Philippines'}, 'NZ': {'rus': 'Новая Зеландия', 'eng': 'New Zealand'},
+    'ZA': {'rus': 'ЮАР', 'eng': 'South Africa'}, 'NG': {'rus': 'Нигерия', 'eng': 'Nigeria'},
+    'KE': {'rus': 'Кения', 'eng': 'Kenya'}, 'MA': {'rus': 'Марокко', 'eng': 'Morocco'},
+    'TN': {'rus': 'Тунис', 'eng': 'Tunisia'}, 'IL': {'rus': 'Израиль', 'eng': 'Israel'},
+    'AE': {'rus': 'ОАЭ', 'eng': 'United Arab Emirates'}, 'SA': {'rus': 'Саудовская Аравия', 'eng': 'Saudi Arabia'},
+    'IR': {'rus': 'Иран', 'eng': 'Iran'}, 'PK': {'rus': 'Пакистан', 'eng': 'Pakistan'},
+}
